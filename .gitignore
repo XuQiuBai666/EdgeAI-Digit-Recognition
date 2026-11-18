@@ -1,0 +1,59 @@
+# ========== Keil MDK 编译生成文件 ==========
+*.o
+*.d
+*.axf
+*.elf
+*.bin
+*.hex
+*.map
+*.crf
+*.lst
+*.dep
+*.lnp
+Objects/
+Listings/
+RTE/
+*.uvguix.*
+*.uvoptx
+*.uvgui.*
+JLinkLog.txt
+*.jlink
+*.SCR
+
+# ========== STM32CubeMX 临时文件 ==========
+*.ioc.bak
+MX/
+.tmp/
+*_template.*
+
+# ========== Python 相关 ==========
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+venv/
+env/
+.venv/
+*.egg-info/
+dist/
+build/
+.ipynb_checkpoints/
+
+# ========== VS Code / 编辑器配置 ==========
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ========== Windows 系统垃圾 ==========
+Thumbs.db
+*.lnk
+Desktop.ini
+$RECYCLE.BIN/
+
+# ========== 个人临时文件 ==========
+*.log
+*.tmp
+*.bak
+*.old
